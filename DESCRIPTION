@@ -3,8 +3,8 @@ Type: Package
 Title: A fish farm for fishplots. 
 Description: Going from raw data to consensus trajectories is hard work. This 
              package doesn't change that, it just automates some tedious bits.
-Version: 0.1.0
-Date: 2018-10-07
+Version: 0.1.1
+Date: 2018-10-11
 Authors@R: c(person("Peter", "Huang", role=c("aut", "cre")),
              person("Tim", "Triche", role=c("aut", "cre"))) 
 Author: Peter Huang [aut, cre], Tim Triche [aut, cre] 
@@ -16,7 +16,9 @@ Depends:
     R (>= 3.0.0)
 Imports:
     GenomicRanges,
-    VariantAnnotation
+    GenomicFeatures,
+    VariantAnnotation,
+    Homo.sapiens
 Suggests:
     covr,
     testthat,
